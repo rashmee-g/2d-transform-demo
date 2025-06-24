@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2D Matrix Transformations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>2D Matrix Transformations Demo</h1>
+  <canvas id="canvas" width="500" height="500"></canvas>
+
+  <div class="controls">
+    <button onclick="reset()">Reset</button>
+    <button onclick="animateTranslate(50, 30)">Translate</button>
+    <button onclick="animateRotate(Math.PI / 4)">Rotate</button>
+    <button onclick="animateScale(1.5, 1.5)">Scale</button>
+    <button onclick="rotateThenTranslate(Math.PI / 2, 50, 30)">Rotate + Translate</button>
+  </div>
+
+  <div class="matrix-display">
+    <h3>Transformation Matrix:</h3>
+    <pre id="matrixOutput"></pre>
+    <h3>Transformed Triangle Coordinates:</h3>
+    <pre id="triangleOutput"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

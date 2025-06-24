@@ -16,7 +16,7 @@ This demo was created as part of a final project for **MAT-210: Linear Algebra (
 - Composite transformations (e.g. Rotate + Translate)
 - Real-time coordinate updates
 
-## 🖥Technologies Used
+## Technologies Used
 
 - HTML5 Canvas for rendering
 - JavaScript for all logic and matrix math

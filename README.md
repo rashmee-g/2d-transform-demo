@@ -1,6 +1,6 @@
 # 2D Matrix Transformations Demo
 
-This project is a browser-based simulation that demonstrates how basic **2D matrix transformations**—translation, rotation, scaling, and composition—are applied to graphical objects using **Linear Algebra**.
+This project is a browser-based simulation that demonstrates how basic **2D matrix transformations**(translation, rotation, scaling, and composition) are applied to graphical objects using **Linear Algebra**.
 
 ## Purpose
 
